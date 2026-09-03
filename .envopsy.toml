@@ -1,0 +1,3 @@
+# Envopsy ignores its own fixtures and detector tests when scanned from
+# the repo root. Downstream projects should not copy this blindly.
+ignore_paths = ["testdata/", "*_test.go"]
